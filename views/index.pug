@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  body 
+    h1 Mini Message Board 
+    each val in messages 
+      div(class="text-div" )
+        h(class="user-name")= val.user
+        p(class="message")= val.text 
+        p(class="added")= val.added
+    a(href="/new", class="send-btn") Send Message  

@@ -1,0 +1,53 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input{
+  display: block;
+}
+
+.text-div{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 0px 5px 5px rgb(226, 224, 224);
+  border: 0px solid;
+  border-radius: 5px;
+  background-color: rgb(236, 231, 231);
+  width: 50vh;
+  padding: 12px;
+  height: auto;
+}
+
+.send-btn{
+  display: block;
+  width: 12.5vh;
+  height: auto;
+  padding: 2vh;
+  background-color: rgb(74, 196, 74);
+  border-radius: 5px;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+}
+
+.added{
+  font-size: 1.5vh;
+}
+
+.user-name{
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.message{
+  padding: 3px;
+  background-color: aliceblue;
+  font-size: 2vh;
+}
+
